@@ -19,4 +19,6 @@ The reason behind is the use of docker swarm and no longer docker-compose.
 
 *./backup.d/websiteBackup.conf*: sample of a conf file. It contains at most 5 variables, and at least Project_name and Config_dir.
 
+Note: all backup archives are automatically encrypted with GPG
+
 I don't recommend using these scripts (security considerations) but it can give ideas.
